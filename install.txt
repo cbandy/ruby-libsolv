@@ -1,0 +1,9 @@
+
+sudo apt-get install cmake
+sudo apt-get install libexpat1-dev
+sudo apt-get install swig
+
+mkdir build
+cd build
+cmake -D ENABLE_RUBY:BOOL=ON ..
+make
